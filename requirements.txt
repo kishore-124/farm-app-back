@@ -37,8 +37,6 @@ Markdown==3.3.4
 mysqlclient==2.0.3
 oauthlib==3.1.0
 pathspec==0.5.9
-paypal-checkout-serversdk==1.0.1
-paypal-payouts-sdk==1.0.0
 paypalhttp==1.0.0
 pendulum==2.1.2
 pgcli==3.1.0
@@ -73,3 +71,4 @@ virtualenv==20.4.2
 virtualenvwrapper-win==1.2.6
 wcwidth==0.1.9
 zipp==3.1.0
+django-environ==0.4.5
