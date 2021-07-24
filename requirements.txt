@@ -34,7 +34,7 @@ idna==2.10
 importlib-metadata==1.7.0
 jmespath==0.10.0
 Markdown==3.3.4
-mysqlclient==2.0.3
+mysqlclient
 oauthlib==3.1.0
 pathspec==0.5.9
 paypalhttp==1.0.0
