@@ -16,12 +16,13 @@ cryptography==3.4.6
 decorator==4.4.2
 defusedxml==0.6.0
 distlib==0.3.1
-Django==3.2.2
+Django==2.2
+mysqlclient==2.0.3
 django-allauth==0.42.0
 django-bootstrap-datepicker-plus==3.0.5
 django-bootstrap4==2.2.0
 django-crispy-forms==1.9.2
-django-filter==2.3.0
+django-filter==2.4.0
 django-mapbox-location-field==1.6.1
 django-utils-six==2.0
 djangorestframework==3.12.2
@@ -34,7 +35,6 @@ idna==2.10
 importlib-metadata==1.7.0
 jmespath==0.10.0
 Markdown==3.3.4
-mysqlclient==2.0.3
 oauthlib==3.1.0
 pathspec==0.5.9
 paypalhttp==1.0.0
@@ -43,7 +43,6 @@ pgcli==3.1.0
 pgspecial==1.12.1
 Pillow==8.1.0
 prompt-toolkit==3.0.16
-psycopg2==2.8.6
 pycparser==2.20
 Pygments==2.8.0
 PyJWT==1.7.1
@@ -72,3 +71,4 @@ virtualenvwrapper-win==1.2.6
 wcwidth==0.1.9
 zipp==3.1.0
 django-environ==0.4.5
+django-cors-headers
