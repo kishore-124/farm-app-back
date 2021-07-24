@@ -1,3 +1,4 @@
+from django.shortcuts import render
 from rest_framework.generics import RetrieveUpdateAPIView
 from rest_framework.permissions import  IsAuthenticated
 
@@ -87,3 +88,9 @@ class LogoutView(APIView):
             return Response({"message": "User Logged Successfully"}, status=status.HTTP_205_RESET_CONTENT)
         except Exception as e:
             return Response({"message": "Invalid token"}, status=status.HTTP_400_BAD_REQUEST)
+
+
+# For Index page with View
+
+def home(request):
+    return render(request, "index.html")
