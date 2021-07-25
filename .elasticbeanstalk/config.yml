@@ -1,6 +1,6 @@
 branch-defaults:
   feature/forgot-password:
-    environment: django-env
+    environment: farm-app
 global:
   application_name: farm_app_back
   branch: null
