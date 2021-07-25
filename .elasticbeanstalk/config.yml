@@ -1,6 +1,6 @@
 branch-defaults:
   feature/forgot-password:
-    environment: farm-app-back
+    environment: farm-app
 global:
   application_name: farm_app_back
   branch: null
