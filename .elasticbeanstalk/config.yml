@@ -1,11 +1,10 @@
 branch-defaults:
   feature/forgot-password:
-    environment: farm-app-back
-    group_suffix: null
+    environment: django-env
 global:
   application_name: farm_app_back
   branch: null
-  default_ec2_keyname: null
+  default_ec2_keyname: aws-eb
   default_platform: Python 3.8 running on 64bit Amazon Linux 2
   default_region: ap-south-1
   include_git_submodules: true
